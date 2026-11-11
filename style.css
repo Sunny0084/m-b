@@ -57,6 +57,19 @@ aside {
     grid-area: as;
 }
 
+aside img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tarolo img {
+    width: 400px;
+}
+
 footer {
     grid-area: f;
+}
+
+@media screen and (max-width: 999px) {
+    
 }
