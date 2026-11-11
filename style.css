@@ -22,6 +22,7 @@ nav {
 
 article {
     grid-area: ar;
+    padding: 20px;
 }
 
 aside {
