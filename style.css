@@ -1,39 +1,62 @@
 body {
     background-color: #444;
+    color: rgb(192, 185, 154);
 }
 
 main {
+    background-color: rgb(46, 44, 44);
+    border: 2px solid rgb(192, 185, 154);
+    border-radius: 10px;
+    padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas: 
-    "h h h"
-    "n n n "
-    "ar ar as"
-    "f f f";
+    "h h"
+    "n n "
+    "ar as"
+    "f f";
 }
 
 header {
     grid-area: h;
-    background-color: red;
+    text-align: center;
 }
 
 nav {
     grid-area: n;
-    background-color: gold;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav a {
+    color: rgb(43, 106, 158);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(22, 63, 97);
 }
 
 article {
     grid-area: ar;
     padding: 20px;
-    background-color: cyan;
 }
 
 aside {
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
     grid-area: as;
-    background-color: deeppink;
 }
 
 footer {
     grid-area: f;
-    background-color: darkgreen;
 }
