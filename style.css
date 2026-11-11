@@ -14,21 +14,26 @@ main {
 
 header {
     grid-area: h;
+    background-color: red;
 }
 
 nav {
     grid-area: n;
+    background-color: gold;
 }
 
 article {
     grid-area: ar;
     padding: 20px;
+    background-color: cyan;
 }
 
 aside {
     grid-area: as;
+    background-color: deeppink;
 }
 
 footer {
     grid-area: f;
+    background-color: darkgreen;
 }
