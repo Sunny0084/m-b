@@ -63,7 +63,7 @@ aside img {
 }
 
 .tarolo img {
-    width: 400px;
+    width: 80%;
 }
 
 footer {
@@ -71,5 +71,5 @@ footer {
 }
 
 @media screen and (max-width: 999px) {
-    
+
 }
