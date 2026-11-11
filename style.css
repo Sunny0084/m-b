@@ -60,3 +60,7 @@ aside {
 footer {
     grid-area: f;
 }
+
+.tarolo img {
+    width: 80%;
+}
